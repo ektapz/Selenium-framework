@@ -1,0 +1,81 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>BDDFramework</groupId>
+  <artifactId>BDDFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+   <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+   <dependency>
+   
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.9.0</version>	
+ </dependency>
+ 
+<!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+<dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>maven-cucumber-reporting</artifactId>
+    <version>5.7.4</version>
+</dependency>
+ <!-- While running as 17 source/target it shows complie error..This depandancy resolved the complier error -->
+  <dependency>
+   <groupId>org.projectlombok</groupId>
+   <artifactId>lombok</artifactId>
+   <version>1.18.24</version>
+  </dependency>
+
+
+ <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.4.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>2.0.7</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>2.0.7</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-slf4j-impl</artifactId>
+    <version>2.20.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.9.0</version>
+    <scope>test</scope>
+</dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.6.0</version>
+</dependency>
+
+
+ </dependencies>
+</project>	
